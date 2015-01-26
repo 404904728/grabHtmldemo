@@ -1,0 +1,623 @@
+2014-06-19 13:31:37,375 INFO   - main: 10秒后启动采集
+2014-06-19 13:31:47,552 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+2014-06-19 13:33:44,357 INFO   - main: 10秒后启动采集
+2014-06-19 13:35:03,015 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+2014-06-19 13:35:34,307 INFO   - main: 10秒后启动采集
+2014-06-19 13:35:44,453 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+2014-06-19 13:36:10,009 INFO   - main: 10秒后启动采集
+2014-06-19 13:36:20,177 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+2014-06-19 13:36:51,177 INFO   - main: 10秒后启动采集
+2014-06-19 13:37:30,715 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+java.lang.NullPointerException
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:66)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2014-06-19 13:38:48,104 INFO   - main: 10秒后启动采集
+2014-06-19 13:38:58,252 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+java.lang.NullPointerException
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:68)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2014-06-19 13:41:50,616 INFO   - main: 10秒后启动采集
+2014-06-19 13:42:00,776 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+java.lang.NullPointerException
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:69)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2014-06-19 13:43:16,214 INFO   - main: 10秒后启动采集
+2014-06-19 13:43:26,383 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+java.lang.NullPointerException
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:65)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2014-06-19 13:43:36,175 INFO   - main: 10秒后启动采集
+2014-06-19 13:45:15,564 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+java.lang.NullPointerException
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:65)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2014-06-19 13:45:50,109 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+java.lang.NullPointerException
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:65)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2014-06-19 13:46:59,541 INFO   - main: 10秒后启动采集
+2014-06-19 13:47:09,688 ERROR util.XmlUtil - loadXML: load config fail!unknown protocol: e Nested exception: unknown protocol: e
+org.dom4j.DocumentException: unknown protocol: e Nested exception: unknown protocol: e
+	at org.dom4j.io.SAXReader.read(SAXReader.java:458)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:317)
+	at util.XmlUtil.loadXML(XmlUtil.java:71)
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:60)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+Nested exception: 
+java.net.MalformedURLException: unknown protocol: e
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at org.apache.xerces.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:439)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:317)
+	at util.XmlUtil.loadXML(XmlUtil.java:71)
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:60)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2014-06-19 13:47:09,690 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+java.lang.NullPointerException
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:65)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2014-06-19 13:49:09,552 ERROR util.XmlUtil - loadXML: load config fail!unknown protocol: e Nested exception: unknown protocol: e
+org.dom4j.DocumentException: unknown protocol: e Nested exception: unknown protocol: e
+	at org.dom4j.io.SAXReader.read(SAXReader.java:458)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:317)
+	at util.XmlUtil.loadXML(XmlUtil.java:71)
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:60)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+Nested exception: 
+java.net.MalformedURLException: unknown protocol: e
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at org.apache.xerces.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:439)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:317)
+	at util.XmlUtil.loadXML(XmlUtil.java:71)
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:60)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2014-06-19 13:49:09,557 INFO  system.LoadConfig - loadDemoConfig: Load demo config fail!null
+java.lang.NullPointerException
+	at system.LoadConfig.loadDemoConfig(LoadConfig.java:65)
+	at crawler.timerManager.SearchTask.run(SearchTask.java:13)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+2014-06-19 13:50:06,853 INFO   - main: 10秒后启动采集
+2014-06-19 13:51:59,947 INFO   - main: 10秒后启动采集
+2014-07-01 09:21:23,257 INFO   - main: 10秒后启动采集
+2014-07-01 09:23:36,262 INFO   - search: 地址：http://www.baidu.com/link?url=d1bNU8vaxb2HRdsTSbExsDSBUQz2rXnyOx5Ngog5wzetqAbPjIPPYQi-h4NxkFo9
+2014-07-01 09:23:36,263 INFO   - search: 标题：南京市食品药品监督管理局
+2014-07-01 09:23:36,263 INFO   - search: 地址：http://www.baidu.com/link?url=JpKIHn9CCHCkXzYGa9Dd7b5d4VAa8J9fQ8vnED1Pwou
+2014-07-01 09:23:36,264 INFO   - search: 标题：【美团网】南京团购_南京团购网_好口碑放心团_美团网南京站
+2014-07-01 09:23:36,265 INFO   - search: 地址：http://www.baidu.com/link?url=hR35aSh90ZfPAL-i1XSt8XEqzFROsEtbLosI4ri__8IByAsbfzq8KNvJdnYjjD1S
+2014-07-01 09:23:36,265 INFO   - search: 标题：南京市建设工程交易中心
+2014-07-01 09:23:36,265 INFO   - search: 地址：http://www.baidu.com/link?url=W5HCuVjziTMiqyQzEUZ7tKLGkDKSYt7_KPd8H8-3Wx0y_CzxJyU7B0S0RZ6D7BZQ
+2014-07-01 09:23:36,266 INFO   - search: 标题：【南京百姓网】 - 免费发布信息 - 南京分类信息网
+2014-07-01 09:23:36,266 INFO   - search: 地址：http://www.baidu.com/link?url=xmdXL8lW5Z-81vC-p15MNO-dBkTArJRjP53ZOyRis2kf0SzM-h8V28MwV0n54izL
+2014-07-01 09:23:36,266 INFO   - search: 标题：南京律师-找法网南京律师在线为您提供免费南京法律咨询服务
+2014-07-01 09:23:36,266 INFO   - search: 地址：http://www.baidu.com/link?url=lxY4UdSRYhBjkpABxrBlGt9_Kmmj7tO59VyAKiPT7SO_77QO5_JjCYxR7Oe5Zuck
+2014-07-01 09:23:36,266 INFO   - search: 标题：南京统计局
+2014-07-01 09:23:36,267 INFO   - search: 地址：http://www.baidu.com/link?url=nyF9VoB3MudkfwWgfN4FktuHGK1fvVBSEwxcSlMe2Z7
+2014-07-01 09:23:36,267 INFO   - search: 标题：南京旅游网_南京旅游专业网站_途牛旅游网
+2014-07-01 09:23:36,267 INFO   - search: 地址：http://www.baidu.com/link?url=o2E5f-F1ZSEBDc8mAKFrSlXZ9WIxp-VEujPjVvPwWjzx4YwTsXgS7BiOE1RET2-TrxdYYg8meQFw1mGOJkVhaq
+2014-07-01 09:23:36,269 INFO   - search: 标题：【南京旅游景点大全】_南京旅游景点_线路报价,攻略_驴妈妈旅游网
+2014-07-01 09:23:36,269 INFO   - search: 地址：http://www.baidu.com/link?url=8mNLlA7Mo9SsCTr_6-vFmb3RlgeN2YvFPh9GkqLIfiM7lo26YctBbRtXlu2jEhgC
+2014-07-01 09:23:36,270 INFO   - search: 标题：南京招聘_南京应届生求职网
+2014-07-01 09:23:36,270 INFO   - search: 地址：http://www.baidu.com/link?url=kAkGhciG_-5ra3LAxSsEpP5g9rheDbvfRbaIOew7QbNTTWVEEChYe2r3BC_jVfqPjti7IBPDMevyU9CLRpWOZ_
+2014-07-01 09:23:36,270 INFO   - search: 标题：南京市[江苏省省会]_互动百科
+2014-07-01 09:26:37,033 INFO   - main: 10秒后启动采集
+2014-07-01 09:26:51,216 INFO   - search: 地址：http://www.baidu.com/link?url=dtrkiprmA688HH38WBg7Dh9dSU7OR8Xh_Q0Cc-TKO5sFK-1dVBO7VWU15gllcfHLmlzZhy1wnikrQajTdGxwE0zUj18FS6wfmkI59fKBTLe
+2014-07-01 09:26:51,217 INFO   - search: 标题：2014上海旅游攻略,上海自助游攻略,蚂蜂窝上海出游攻略游记 - 蚂蜂窝
+2014-07-01 09:26:51,217 INFO   - search: 地址：http://www.baidu.com/link?url=aEcwqHuinHMM3VCFgVsFtuGwrWXi0xvDq06kQAeY3gq
+2014-07-01 09:26:51,218 INFO   - search: 标题：上海房地产门户-搜房房地产网
+2014-07-01 09:26:51,218 INFO   - search: 地址：http://www.baidu.com/link?url=FNtMdKSIqUO857qNkYHDHUYj1vkB2KGm5kcKEh22txGKUqgHsn0_qntVeYyQxH3T
+2014-07-01 09:26:51,218 INFO   - search: 标题：上海银行
+2014-07-01 09:26:51,219 INFO   - search: 地址：http://www.baidu.com/link?url=xg13l72_z4KsACMy0Wdqnd7OG_2svlBZTna4CS_4wpNMYVe5WOaIvEiO69WWTozV
+2014-07-01 09:26:51,219 INFO   - search: 标题：中国移动通信
+2014-07-01 09:26:51,219 INFO   - search: 地址：http://www.baidu.com/link?url=_C2xqpzSK5ceB1EqN4dsidas_eR7GGjdmrqrDbvf7lo06RTWZe1MKPDxM-NH-YUG
+2014-07-01 09:26:51,219 INFO   - search: 标题：上海市职业能力考试院
+2014-07-01 09:26:51,219 INFO   - search: 地址：http://www.baidu.com/link?url=keeQNoUB5sW5iNZUvvpUey6OuVX3TC1ns170Cp3wm4iJTJXz4Be7LhVXIz9UzrpY
+2014-07-01 09:26:51,219 INFO   - search: 标题：【上海百姓网】 - 免费发布信息 - 上海分类信息网
+2014-07-01 09:26:51,220 INFO   - search: 地址：http://www.baidu.com/link?url=_a5FxNypLuuAYwH2vWabmkcXSpnx4u4U8WRWX_lVeEuBV_77NulWtRVnOU3zATPDyxb7v7UjrEd71xWDHeS3eq
+2014-07-01 09:26:51,220 INFO   - search: 标题：上海地铁线路图 - 百度地图
+2014-07-01 09:26:51,220 INFO   - search: 地址：http://www.baidu.com/link?url=djTOx8iwM42Fezssw8Wy5W_rM23th_qYk-i1-ssBXNex0TfAsxLGr80pA7lJniJ5ZyCw-vlChjEAl0jzbkFigq
+2014-07-01 09:26:51,221 INFO   - search: 标题：上海天气预报-今日_明日_一周天气预报:20日 星期五夜间至21日 ...
+2014-07-01 09:26:51,222 INFO   - search: 地址：http://www.baidu.com/link?url=LVq9D_8chBZUr7t7XGKWBBl5W2Pt5WQ52iPc5rZ22GDhkjo9Mu_V4ejyjwyVjJy-
+2014-07-01 09:26:51,222 INFO   - search: 标题：上海旅游攻略_上海上海旅游景点_上海旅游网
+2014-07-01 09:26:51,222 INFO   - search: 地址：http://www.baidu.com/link?url=x6JgAlNwashwBNgoZr1QTQcTLQLbQ7O30TPhkPRS2ZHTCTEXtML2Z52oy4VA7mdC
+2014-07-01 09:26:51,222 INFO   - search: 标题：上海市人力资源社会保障网
+2014-07-01 09:26:54,997 INFO   - search: 地址：http://baike.baidu.com/subview/2621/13223029.htm?fr=aladdin
+2014-07-01 09:26:54,998 INFO   - search: 标题：北京_百度百科
+2014-07-01 09:26:54,998 INFO   - search: 地址：http://map.baidu.com/?newmap=1&s=s%26wd%3D北京市%26c%3D131&from=alamap&tpl=mapcity
+2014-07-01 09:26:54,998 INFO   - search: 标题：北京市地图_百度地图
+2014-07-01 09:26:54,998 INFO   - search: 地址：http://lvyou.baidu.com/beijing/
+2014-07-01 09:26:54,998 INFO   - search: 标题：2014北京旅游攻略_北京景点线路游记_百度旅游
+2014-07-01 09:26:54,998 INFO   - search: 地址：http://www.baidu.com/link?url=rgDyMoNQxBsBNz8kReCCQVybi73G5XEg2MqzcnUk-tO1gFDg44yGvDwsJi26uG6E
+2014-07-01 09:26:54,999 INFO   - search: 标题：首都之窗-北京市政务门户网站
+2014-07-01 09:26:54,999 INFO   - search: 地址：http://www.weather.com.cn/html/weather/101010100.shtml
+2014-07-01 09:26:54,999 INFO   - search: 标题：北京天气预报_一周天气预报_中国天气网
+2014-07-01 09:26:54,999 INFO   - search: 地址：http://dujia.qunar.com/pq/slist_%E5%8C%97%E4%BA%AC?ex_track=bd_zhixin_dujia_place1_01&tf=bd_zhixin_title_06
+2014-07-01 09:26:54,999 INFO   - search: 标题：北京旅游线路_北京旅游景点_由去哪儿网度假频道提供
+2014-07-01 09:26:54,999 INFO   - search: 地址：http://www.baidu.com/link?url=1j9-E8T-Apec21FGOA_6tdotTNYcWKv4WVcLXH-3j8b6E3AlAD_BqRrrV6oCsDVu03u_Gs6f0UQJNxIbR855_a
+2014-07-01 09:26:54,999 INFO   - search: 标题：北京吧 百度贴吧
+2014-07-01 09:26:55,000 INFO   - search: 地址：http://www.baidu.com/s?tn=baidurt&rtt=1&bsst=1&wd=%B1%B1%BE%A9
+2014-07-01 09:26:55,000 INFO   - search: 标题：北京的最新相关信息
+2014-07-01 09:26:55,000 INFO   - search: 地址：http://piao.qunar.com/ticket/list_北京.html#ex_track=bd_zhixin_menpiao_pc_103_title
+2014-07-01 09:26:55,000 INFO   - search: 标题：北京旅游_必去景点攻略_门票价格_去哪儿网门票频道提供
+2014-07-01 09:26:55,001 INFO   - search: 地址：http://newcar.xcar.com.cn/1907/
+2014-07-01 09:26:55,001 INFO   - search: 标题：【北京汽车E系列三厢】新北京汽车_北京汽车E系列三厢报价|图片_2...
+2014-07-01 09:26:55,751 INFO   - search: 地址：http://www.baidu.com/link?url=TDTRBtnPE7KdNRuLS7PW11XfF60uqb5OZOe-BKhSlBoKPW1T_opU4Id-wIX1HzrR
+2014-07-01 09:26:55,751 INFO   - search: 标题：首页-北京市水务局
+2014-07-01 09:26:55,751 INFO   - search: 地址：http://www.baidu.com/link?url=xHJuUFLzHhHLaXaum-gwOfysoNaYzWLepue_qhcEDXOwcbU1fgFnpVVDaGXFTeSs
+2014-07-01 09:26:55,751 INFO   - search: 标题：欢迎访问北京市统计局 国家统计局北京调查总队网站!
+2014-07-01 09:26:55,751 INFO   - search: 地址：http://www.baidu.com/link?url=RGkYHIFvVO7DCvvfw0D281oyDWvLr24K93XDQgIot7_
+2014-07-01 09:26:55,752 INFO   - search: 标题：北京福彩网-福利彩票开奖,福彩走势图,福彩投注-福彩网首页
+2014-07-01 09:26:55,752 INFO   - search: 地址：http://www.baidu.com/link?url=XY2NTTTG0FybWKvGkEsBSTg8-yqW0FvnePKY51dTqGO
+2014-07-01 09:26:55,752 INFO   - search: 标题：【美团网】北京团购_北京团购网_好口碑放心团_美团网北京站
+2014-07-01 09:26:55,752 INFO   - search: 地址：http://www.baidu.com/link?url=Lhyi3df3WlF7xklOal1lrD-OXvJ6W6z8LF5gZVnCXqQNMGEmI0kMBM85AXYGkTRe
+2014-07-01 09:26:55,752 INFO   - search: 标题：北京市环保局 - 首页
+2014-07-01 09:26:55,752 INFO   - search: 地址：http://www.baidu.com/link?url=K8_aGPFqnt4T7Iqgg2vic_FtACyNQpz-6_TAQBP2s_X6MdluHliMeVV7DdWB4AF_
+2014-07-01 09:26:55,753 INFO   - search: 标题：:::北京市工商局:::
+2014-07-01 09:26:55,753 INFO   - search: 地址：http://www.baidu.com/link?url=SEhNeaQrTetla4T3haUblvQ1Yto8NVVMHi5Y-4TMIejaNwMzcgqX2Y7x_AmUEHPI
+2014-07-01 09:26:55,753 INFO   - search: 标题：投资北京
+2014-07-01 09:26:55,753 INFO   - search: 地址：http://www.baidu.com/link?url=9JTTS51D3Soz6hjYh5zvpUIrN32gaPHkI7PsKMvTgsvGeqq-spNzpDeCvkUS4ozr
+2014-07-01 09:26:55,753 INFO   - search: 标题：北京司法局 > 首页
+2014-07-01 09:26:55,753 INFO   - search: 地址：http://www.baidu.com/link?url=QfTfP_WaBU0shjxQQ0SAlsO-IgsC0zrkKZ4I-5JS1SW
+2014-07-01 09:26:55,754 INFO   - search: 标题：北京房地产门户-搜房房地产网
+2014-07-01 09:26:55,754 INFO   - search: 地址：http://www.baidu.com/link?url=9sD08njooC0ML5J0DvsAjX2Kwgp8SdaNdisjE7GYrdXiXo7Eiw02TlH4Aqgo-dlZ
+2014-07-01 09:26:55,754 INFO   - search: 标题：北京市安全生产监督管理局
+2014-07-01 09:26:56,043 INFO   - search: 地址：http://www.baidu.com/link?url=OXKwwtv3O0KgTNM_qd-5xrXHfJ5A4KHkXZtjvbcgXAmHV4H8C4ACXTqkmfH6F08x
+2014-07-01 09:26:56,043 INFO   - search: 标题：北京市发展和改革委员会
+2014-07-01 09:26:56,044 INFO   - search: 地址：http://www.baidu.com/link?url=B7Ac2rEjx2nHh9R6hg-cPGIEtYcrrk9wqW1yRr0BwAfbhr-9BSg8INo4o--kBIpr
+2014-07-01 09:26:56,044 INFO   - search: 标题：北京市人大常委会
+2014-07-01 09:26:56,044 INFO   - search: 地址：http://www.baidu.com/link?url=iQKAtKM03a1hbN3qHxjcTE9pDesWHvxTLMCd6CZCHDwV7VYW0KLtcYonZFMBJxoR
+2014-07-01 09:26:56,044 INFO   - search: 标题：北京市食品药品监督管理局
+2014-07-01 09:26:56,044 INFO   - search: 地址：http://www.baidu.com/link?url=qwXrTdb229im2cASTJRpcZV1duEXC0bjCCLTkQuoO9j6f8Eyby69yX0_kY9VmI-x
+2014-07-01 09:26:56,044 INFO   - search: 标题：北京.中国地质大学欢迎您
+2014-07-01 09:26:56,045 INFO   - search: 地址：http://www.baidu.com/link?url=gYcMGjvbMeKAMfVvMlEVcSE2Imp_mA7dOlrgOYqYYVFxSmSdWKSsUpJnbGiqd5zt
+2014-07-01 09:26:56,045 INFO   - search: 标题：【北京百姓网】 - 免费发布信息 - 北京分类信息网
+2014-07-01 09:26:56,045 INFO   - search: 地址：http://www.baidu.com/link?url=u6RAdypMocIoVFjiSHMXyEdwBDYFtFpZEVlrPOEh6v7
+2014-07-01 09:26:56,045 INFO   - search: 标题：北京宽带网BBN
+2014-07-01 09:26:56,045 INFO   - search: 地址：http://www.baidu.com/link?url=CwVs9VE8tQnU_nZZcxzjFR6XhqvU6nHvRM9bWs_IfuZC7CD58WK2M2NMAeJMu6Se
+2014-07-01 09:26:56,046 INFO   - search: 标题：免费发布信息,北京分类信息网-北京易登网
+2014-07-01 09:26:56,046 INFO   - search: 地址：http://www.baidu.com/link?url=hml2eLXuCVYUOAV0GDKlBX_2WU-Tz4RoFFT9JnbzZ8G
+2014-07-01 09:26:56,046 INFO   - search: 标题：北京网-首都城市综合信息服务平台-北京生活、旅游、交通、文化、...
+2014-07-01 09:26:56,046 INFO   - search: 地址：http://www.baidu.com/link?url=syqlGFi1K86gaaFV1lVOPDs65grW_aIwUc_JwKyJufe
+2014-07-01 09:26:56,046 INFO   - search: 标题：北京市工程建设交易信息网
+2014-07-01 09:26:56,046 INFO   - search: 地址：http://www.baidu.com/link?url=EZutZBbLGiuGnG9Rc11uTfZLQnEiJNMwp5r5uhZkyefKyxkdRA5n0qNYsn92yaiL
+2014-07-01 09:26:56,047 INFO   - search: 标题：北京市政协
+2014-07-01 09:27:00,033 INFO   - search: 地址：http://www.baidu.com/link?url=GT-Y7oO0sRif882VCDRB-jNCWfxDZO1y14UKb3M8CYrxTpT48f2v2NYApCDvZCwj
+2014-07-01 09:27:00,034 INFO   - search: 标题：南京市食品药品监督管理局
+2014-07-01 09:27:00,034 INFO   - search: 地址：http://www.baidu.com/link?url=YxNa5ktsguHxmqhqzLN141jyv6EcG09idyCQ_sfZlem
+2014-07-01 09:27:00,034 INFO   - search: 标题：【美团网】南京团购_南京团购网_好口碑放心团_美团网南京站
+2014-07-01 09:27:00,034 INFO   - search: 地址：http://www.baidu.com/link?url=xICDASv-nGPKywY1o9KSz1EgHUXRXIW8VFc5y5UKpkjKs-d177-lB7Dbhv9HYqdI
+2014-07-01 09:27:00,034 INFO   - search: 标题：南京市建设工程交易中心
+2014-07-01 09:27:00,035 INFO   - search: 地址：http://www.baidu.com/link?url=S5lLs6ivY0qvtJqjCQ7o03VPmUwg2x3LKbTPnin8q-Tw5R7H2bzJ9p6K5bLnSY15
+2014-07-01 09:27:00,035 INFO   - search: 标题：【南京百姓网】 - 免费发布信息 - 南京分类信息网
+2014-07-01 09:27:00,035 INFO   - search: 地址：http://www.baidu.com/link?url=sLF0e9BTFSUgid_y_VYKgI6gFT_y4HZ3D00-PqcS9G8_d92q0eCv14r5lKh0zOQ7
+2014-07-01 09:27:00,035 INFO   - search: 标题：南京律师-找法网南京律师在线为您提供免费南京法律咨询服务
+2014-07-01 09:27:00,035 INFO   - search: 地址：http://www.baidu.com/link?url=T2bufDnUGx_xKstzAGa59akJnRiAGAzd2bPfnha1wg8_3CFHbT_cuWex22MDkBmf
+2014-07-01 09:27:00,036 INFO   - search: 标题：南京统计局
+2014-07-01 09:27:00,036 INFO   - search: 地址：http://www.baidu.com/link?url=UtLgxO8xKl1q4BefvuJ8y9do9T4HXI3rhnyPkXV9HuG
+2014-07-01 09:27:00,036 INFO   - search: 标题：南京旅游网_南京旅游专业网站_途牛旅游网
+2014-07-01 09:27:00,036 INFO   - search: 地址：http://www.baidu.com/link?url=gWY3cblGMDk3iEWwuDahaDg1qyZpDx-40BTtKaytH_w2O-w72EU0zW8pS-dDghr_jGmyyVmvRNvdr0CNescqNa
+2014-07-01 09:27:00,036 INFO   - search: 标题：【南京旅游景点大全】_南京旅游景点_线路报价,攻略_驴妈妈旅游网
+2014-07-01 09:27:00,037 INFO   - search: 地址：http://www.baidu.com/link?url=jmv3ye6HXLQxadHN4k9US9oQAXqozye3iGBVhZ69yLls7pMzbLEXwFNL-8uQQ3s9
+2014-07-01 09:27:00,037 INFO   - search: 标题：南京招聘_南京应届生求职网
+2014-07-01 09:27:00,037 INFO   - search: 地址：http://www.baidu.com/link?url=pUCBgZ3uZgnuO8WGx1_qjTIIP5-UeHmQjI1dB2lo5gB4JRCxUECZ3hPk8y5av2vxyuIS9Q7PTEkwU6CZA4cG0K
+2014-07-01 09:27:00,037 INFO   - search: 标题：南京市[江苏省省会]_互动百科
+2014-07-01 09:28:53,971 INFO   - search: 地址：http://www.baidu.com/link?url=kLY7COHb0hBTHco0IQAxPBlLGb8IppxqDwl2Nv63P4Kl_zeiNwQQ-nRSBCgt83WC0B3k8bZNXUhdE8lY0rJFmq
+2014-07-01 09:28:53,972 INFO   - search: 标题：上海酒店,上海酒店预订,上海宾馆住宿推荐【携程酒店】
+2014-07-01 09:28:53,972 INFO   - search: 地址：http://www.baidu.com/link?url=2w6YCVmxOy4XMIYWaSMymQgsJdonIUBSUQawSiRKRTu
+2014-07-01 09:28:53,972 INFO   - search: 标题：上海地图,上海电子地图,上海地图查询,上海街景地图 - 城市吧街景...
+2014-07-01 09:28:53,972 INFO   - search: 地址：http://www.baidu.com/link?url=mb29aY0h6866COdgSFUaIdoXHAT-xYJhvGGZvCxLoRsMGfYYBdNV7LzK0f6rqFqk
+2014-07-01 09:28:53,972 INFO   - search: 标题：上海机构编制网
+2014-07-01 09:28:53,972 INFO   - search: 地址：http://www.baidu.com/link?url=8QfP_I76f3YauWZ6n8IvS0iwtos5jvJpAXFQ_zsivla
+2014-07-01 09:28:53,972 INFO   - search: 标题：上海市文化广播影视管理局
+2014-07-01 09:28:53,972 INFO   - search: 地址：http://www.baidu.com/link?url=vlEQWvQQAy_CfcEsYEShyOeGR6P-5H3iipa06hNb8-K
+2014-07-01 09:28:53,972 INFO   - search: 标题：【上海赶集网】-免费发布信息-上海分类信息门户
+2014-07-01 09:28:53,973 INFO   - search: 地址：http://www.baidu.com/link?url=D-0no-bWHDVZk6ku70mGLtbPib86nErD3kGDy9cGiRfkiG3Do4dKwf1cSJeYjxWz
+2014-07-01 09:28:53,973 INFO   - search: 标题：上海纪检监察
+2014-07-01 09:28:53,973 INFO   - search: 地址：http://www.baidu.com/link?url=0FapSg2jL62-TFZ2JucDmLMDjMpREWTdzOIcL55CakvP1GnOdHCQBYHLlcYyNSvs
+2014-07-01 09:28:53,973 INFO   - search: 标题：上海检察网
+2014-07-01 09:28:53,973 INFO   - search: 地址：http://www.baidu.com/link?url=Xe9nN0EreoOpeDOiyV5Bb3ynVCBLS-c-5UJ1X3A0zJ4viliyprxhtAHLQQqlbsik
+2014-07-01 09:28:53,973 INFO   - search: 标题：【上海汽车网|上海车市_上海汽车报价_上海汽车团购服务】_易车网
+2014-07-01 09:28:53,973 INFO   - search: 地址：http://www.baidu.com/link?url=W_O0dabQofkLB7Y8nkm34C6i__gtUJAQVEWvPaa3mr8n9y_qrXfk6jWS0yswM2La
+2014-07-01 09:28:53,973 INFO   - search: 标题：上海教育门户网站欢迎您!
+2014-07-01 09:28:53,973 INFO   - search: 地址：http://www.baidu.com/link?url=d-WeN0DqTWoZ2wHc9m1RqEmLfM2Ha7N3_uoqvIpxrF7HXon711joK2qDh9_3FdYW
+2014-07-01 09:28:53,974 INFO   - search: 标题：新华网上海频道
+2014-07-01 09:30:50,892 INFO   - search: 地址：http://www.baidu.com/link?url=4NFfz80YeWkYpknAVpJWmwdICwBjFwLfIh652iZ5GfM5hLoTuk0Mm6C6bmIjNuFk
+2014-07-01 09:30:50,893 INFO   - search: 标题：上海科技
+2014-07-01 09:30:50,893 INFO   - search: 地址：http://www.baidu.com/link?url=fPBfYc5oVIRQrU765la_Zg_8TBhqS9WdJJCOiMc-WJvXWffGyoJyj7QhLqCdoT8u
+2014-07-01 09:30:50,893 INFO   - search: 标题：上海人大公众网
+2014-07-01 09:30:50,893 INFO   - search: 地址：http://www.baidu.com/link?url=_COSPvcjsOGdx6_LzWqPTLTGUXsSSwMm0pSQ3x0sx3FchYqTBV8VymGPoDB4YjNO
+2014-07-01 09:30:50,894 INFO   - search: 标题：上海市水务局 上海市海洋局欢迎您!
+2014-07-01 09:30:50,894 INFO   - search: 地址：http://www.baidu.com/link?url=i-tTG1sR2Fi2wrqyxDMfr9zLeUXxlMYkPO_OPiQQMy1p8fQ0q8NuHLkOCuDdU4Wi
+2014-07-01 09:30:50,895 INFO   - search: 标题：上海旅游网_ www.shanghaitour.net _上海旅游首选公众服务平台
+2014-07-01 09:30:50,895 INFO   - search: 地址：http://www.baidu.com/link?url=9O3p9jcZOAMOh_Qgz1xHHsHY4Q0ejzfUsZcOqK5t-JO
+2014-07-01 09:30:50,895 INFO   - search: 标题：【美团网】上海团购_上海团购网_好口碑放心团_美团网上海站
+2014-07-01 09:30:50,895 INFO   - search: 地址：http://www.baidu.com/link?url=M2iAG77ccFdgvr7GIw1a5rS3nPee3QlRo0rZwHvEet297ydqCTD_ZBeSMAPNVg1o
+2014-07-01 09:30:50,895 INFO   - search: 标题：上海市安全生产监督管理局
+2014-07-01 09:30:50,896 INFO   - search: 地址：http://www.baidu.com/link?url=ozRZG3WYOrKzSsof9bS1T5ZpiTzIZL4VcZZSVgKSVmrHMxcrEATeV8ytWhW_kgOU
+2014-07-01 09:30:50,896 INFO   - search: 标题：免费发布信息,上海分类信息网-上海易登网
+2014-07-01 09:30:50,896 INFO   - search: 地址：http://www.baidu.com/link?url=s7-Z_CiEKgZIkY7aqIUbdUAMxNKYr8oBgLPdcdWZUIG
+2014-07-01 09:30:50,896 INFO   - search: 标题：上海市工商行政管理局
+2014-07-01 09:30:50,897 INFO   - search: 地址：http://www.baidu.com/link?url=9yt1TGeAw5KAXJN61OuTews69zANt2dokgujgMNUO1mvvy_az4E68NMUylUxgcCO
+2014-07-01 09:30:50,897 INFO   - search: 标题：上海政协
+2014-07-01 09:30:50,897 INFO   - search: 地址：http://www.baidu.com/link?url=uB9w0PeD-yu2TEnm4wxQ68stB4AAjePJ3PdWsx8-miQAUNZX_otBkJjt5JK6SzbU
+2014-07-01 09:30:50,897 INFO   - search: 标题：:::上海市公安局:::
+2014-07-01 09:30:51,251 INFO   - search: 地址：http://www.baidu.com/link?url=1sauK5MChvLre4E7UbrnbiDrMn55ZjB6r19P74h5tH-p6M3LG5qbStDdV4pU_duOE5Tcd4EbT3OmjObcxz_ibK
+2014-07-01 09:30:51,251 INFO   - search: 标题：上海酒店,上海酒店预订,上海宾馆住宿推荐【携程酒店】
+2014-07-01 09:30:51,252 INFO   - search: 地址：http://www.baidu.com/link?url=Qj86GVdsx6QJnb8XHBCe2Nx-GcasoXhYNMqoh15WVSa
+2014-07-01 09:30:51,252 INFO   - search: 标题：上海地图,上海电子地图,上海地图查询,上海街景地图 - 城市吧街景...
+2014-07-01 09:30:51,252 INFO   - search: 地址：http://www.baidu.com/link?url=rGJHC0Q_vpQC2l07O_e8uMSJBg_kWboV2J0iYqJX095kAa42QA5Tmtz5jgLumK20
+2014-07-01 09:30:51,252 INFO   - search: 标题：上海机构编制网
+2014-07-01 09:30:51,252 INFO   - search: 地址：http://www.baidu.com/link?url=Z2_LdCTbTVd0PxM_X2p_b0X_E7wOEdaPtC47IJE29fa
+2014-07-01 09:30:51,253 INFO   - search: 标题：上海市文化广播影视管理局
+2014-07-01 09:30:51,253 INFO   - search: 地址：http://www.baidu.com/link?url=fblVc34mtudElqnoah9qqYwhC8Hrib1tcb2TUgfS54_
+2014-07-01 09:30:51,253 INFO   - search: 标题：【上海赶集网】-免费发布信息-上海分类信息门户
+2014-07-01 09:30:51,253 INFO   - search: 地址：http://www.baidu.com/link?url=8wcsz_ZPcMO60lt3jxnmIRM9KqW3fBZOsu3WtGBIAANF2vNH8hHLmoAo_R3GIIR0
+2014-07-01 09:30:51,253 INFO   - search: 标题：上海纪检监察
+2014-07-01 09:30:51,254 INFO   - search: 地址：http://www.baidu.com/link?url=e7SEA4Y2uNq-MgXQoGtzxpNgaajPMaEgcvQdb5MlyXTV_wA7Wp5neGX7GeQ1cZyR
+2014-07-01 09:30:51,254 INFO   - search: 标题：上海检察网
+2014-07-01 09:30:51,254 INFO   - search: 地址：http://www.baidu.com/link?url=BJYcGTDR0zQZFInmYwzHVJObi8lyf22dwqIBfw3MCvKXgL786GGA4AA7nVRJXbQZ
+2014-07-01 09:30:51,254 INFO   - search: 标题：【上海汽车网|上海车市_上海汽车报价_上海汽车团购服务】_易车网
+2014-07-01 09:30:51,254 INFO   - search: 地址：http://www.baidu.com/link?url=wuwBsvxgKXByk_1PZzVC7A7gBoyxXiLEb98OT3AOjWAnMhtP1mbIpKxiFMSPJAUf
+2014-07-01 09:30:51,255 INFO   - search: 标题：上海教育门户网站欢迎您!
+2014-07-01 09:30:51,255 INFO   - search: 地址：http://www.baidu.com/link?url=3nWK1dx2I_IafZwZFoQmLig3X-PMoTKr4qPABnEDYp-4rmbIG6cP58qO5ILAoBgK
+2014-07-01 09:30:51,255 INFO   - search: 标题：新华网上海频道
+2014-07-01 09:30:52,193 INFO   - search: 地址：http://www.baidu.com/link?url=mJNLY5ag-Inf-D9IReUR5eyKTM0b7Uj9pv_dnvnat9V6hv6OxfHzBIPyw7zGNhNP
+2014-07-01 09:30:52,193 INFO   - search: 标题：北京招聘网_北京人才网_北京招聘信息_智联招聘
+2014-07-01 09:30:52,194 INFO   - search: 地址：http://www.baidu.com/link?url=B9qbkPvnNNZsNGhiBmfqUrqvXDpmn04AOmHzL7WRAKrZYlF5v-OvgkTHlHYc3cMsh4t6NYzU4SJU0YwTRM7RC_
+2014-07-01 09:30:52,194 INFO   - search: 标题：百度地图
+2014-07-01 09:30:52,194 INFO   - search: 地址：http://www.baidu.com/link?url=WU6WyACCufS6BLH7HOsvPX-3EqCUNUUs2jFujKxFXTSowxYng-_nHE5FUmbPQSEU
+2014-07-01 09:30:52,194 INFO   - search: 标题：北京市社会保险网上服务平台
+2014-07-01 09:30:52,195 INFO   - search: 地址：http://www.baidu.com/link?url=PyzYNtElP6qxPZzkz4iN7GvEqscWHIYiCl_WPkTa5US
+2014-07-01 09:30:52,195 INFO   - search: 标题：北京联合大学
+2014-07-01 09:30:52,195 INFO   - search: 地址：http://www.baidu.com/link?url=LmsL4CKv_DqtV65JRC9BgqS1W67Z9mmZwVv4AP1CDja
+2014-07-01 09:30:52,195 INFO   - search: 标题：北京妈妈网_官方网站,北京妈妈首选育儿、生活等交流互动社区 -
+2014-07-01 09:30:52,195 INFO   - search: 地址：http://www.baidu.com/link?url=kY1BhYaLxTZ52e9XzsyjG8482NoJ8JKnWsl8Wi1qSpmmZmUeb6MDPZgNf-seWv_B
+2014-07-01 09:30:52,196 INFO   - search: 标题：北京银行
+2014-07-01 09:30:52,196 INFO   - search: 地址：http://www.baidu.com/link?url=qnpNu71R9j9h-JVhxnwoGB0kPKmqtuRc3ajehLhC2TC
+2014-07-01 09:30:52,196 INFO   - search: 标题：北京理工大学
+2014-07-01 09:30:52,196 INFO   - search: 地址：http://www.baidu.com/link?url=syAJ4ybm33b4b3wzBlKzSHFNY3eahEEQQTCHmSqdbpKyzR0P90x88oBIN8BnBNEU
+2014-07-01 09:30:52,196 INFO   - search: 标题：北京旅游攻略_北京北京旅游景点_北京旅游网
+2014-07-01 09:30:52,196 INFO   - search: 地址：http://www.baidu.com/link?url=T9AKqSlZPFywCM-6QBfeyFblOJURIeoHWs81-CZkwVi
+2014-07-01 09:30:52,197 INFO   - search: 标题：中共北京市委党校
+2014-07-01 09:30:52,197 INFO   - search: 地址：http://www.baidu.com/link?url=zpbc41dIIyvk5BucbYW9k1dpWJV1qGWEfqNx8zrbCZu2pAtWtNoIR0w3pIBRwTfC
+2014-07-01 09:30:52,197 INFO   - search: 标题：北京汽车_北京车市_北京汽车报价_北京汽车网_汽车之家
+2014-07-01 09:30:56,013 INFO   - search: 地址：http://www.baidu.com/link?url=6jPBorWrzImIh72V5QIj_M4Hufttc52AqRr1GhzW85i
+2014-07-01 09:30:56,013 INFO   - search: 标题：南京兼职网-南京招聘网-南京大学生兼职网 - 1010兼职网
+2014-07-01 09:30:56,013 INFO   - search: 地址：http://www.baidu.com/link?url=ZUvF_eeiIJnHKccYHoGz02GN3sc7Aa0M2bIuiwcYlB2nIaEB3BaK-dpf1PDj04UA
+2014-07-01 09:30:56,014 INFO   - search: 标题：【南京汽车网|南京车市_南京汽车报价_南京汽车团购服务】_易车网
+2014-07-01 09:30:56,014 INFO   - search: 地址：http://www.baidu.com/link?url=ph-vBVfyTw5RIfHV9Z8_xSf2z_Hl20NlTvf0a-vqBvzZavbFkW0XreZkKSJq3dzm
+2014-07-01 09:30:56,014 INFO   - search: 标题：首页——南京市价格信息网
+2014-07-01 09:30:56,014 INFO   - search: 地址：http://www.baidu.com/link?url=EQYNr7OMEqKcwbE9rZ6WpkMDS-4vWTrrVHUItgXyqDC_GMLwrHnu-a0dJeoxbTMP
+2014-07-01 09:30:56,014 INFO   - search: 标题：南京交管在线
+2014-07-01 09:30:56,015 INFO   - search: 地址：http://www.baidu.com/link?url=CUK8vzcKiTDTkG0GoyztRwvKHCaMrwYa9qB8KsTq9l3
+2014-07-01 09:30:56,015 INFO   - search: 标题：招聘,找工作求职,上南京人事人才网
+2014-07-01 09:30:56,015 INFO   - search: 地址：http://www.baidu.com/link?url=eKzpfGmya_la3vz16ZH_f6ydTShE7vWuws202i_HI5q
+2014-07-01 09:30:56,015 INFO   - search: 标题：南京旅游网-南京市旅游委员会官方网站
+2014-07-01 09:30:56,015 INFO   - search: 地址：http://www.baidu.com/link?url=X7ehKXiYJPnDX24DlOF1y5CJSpNu-B-mK7-j75oetkM1M-6piMWPOv1PuD5vvggr
+2014-07-01 09:30:56,015 INFO   - search: 标题：南京房地产门户-搜房房地产网
+2014-07-01 09:30:56,016 INFO   - search: 地址：http://www.baidu.com/link?url=cJDzf7xBI04gB9Bc3hoI3QE2xDjOjxgRbPHaMo7yqzCacM-pRIBiifxdBLemBe1x
+2014-07-01 09:30:56,016 INFO   - search: 标题：南京政协
+2014-07-01 09:30:56,016 INFO   - search: 地址：http://www.baidu.com/link?url=17GPuYH1oBrKyG_L12E4ZIWZlVCPhaA_FPmzULuSvmE_bAv9nWyNr2BX-R-6jZ09
+2014-07-01 09:30:56,016 INFO   - search: 标题：南京分类信息网-免费发布南京分类信息-快点8分类信息网
+2014-07-01 09:30:56,016 INFO   - search: 地址：http://www.baidu.com/link?url=W1PnrvEpTytPmOZ0NDReEF2u1pUprRS6yaQjTTUUhUOUyCBkTKtVa4YVrVKDffHR4QivOg3rm1Y5u_PboTkeRa
+2014-07-01 09:30:56,017 INFO   - search: 标题：南京公安
+2014-07-01 09:33:00,253 INFO   - search: 地址：http://www.baidu.com/link?url=G-eBDGCziLsvC7Xq5oMIjMUCNeX_VgrXsrCYMs_9VUnauSST7Fp5avo5L-cC4VdD
+2014-07-01 09:33:00,253 INFO   - search: 标题：上海机构编制网
+2014-07-01 09:33:00,255 INFO   - search: 地址：http://www.baidu.com/link?url=8V_ibGCSIBTgzQxPGWGxhTKrG2pskmMQ9H21bcW9V0v8_CxyU8Q8Zc1d05Z81G-A
+2014-07-01 09:33:00,256 INFO   - search: 标题：上海市安全生产监督管理局
+2014-07-01 09:33:00,256 INFO   - search: 地址：http://www.baidu.com/link?url=40RVr4gNttxDJzvFNpnW2af5nJEWqaQi1JiNIxAeSf9tqoOCtDkLmEXOVYgE6L08
+2014-07-01 09:33:00,256 INFO   - search: 标题：上海政协
+2014-07-01 09:33:00,257 INFO   - search: 地址：http://www.baidu.com/link?url=DFktTWhFPwKNpL7baHp5Ya55TUdU5Ricqi8OVNp4GKGpJ7m6ji9y2e2-fwrqBHlX
+2014-07-01 09:33:00,257 INFO   - search: 标题：上海纪检监察
+2014-07-01 09:33:00,257 INFO   - search: 地址：http://www.baidu.com/link?url=Xlky44JnrcQVuh0dIv_H04HOaKffGAgzmurY59qSeZq
+2014-07-01 09:33:00,258 INFO   - search: 标题：上海市文化广播影视管理局
+2014-07-01 09:33:00,258 INFO   - search: 地址：http://www.baidu.com/link?url=zEC_oFrMOwG6bQcm6xR44fLCMAHlLYUcPtXvF-gQ3mS
+2014-07-01 09:33:00,258 INFO   - search: 标题：上海车市_上海汽车网_上海汽车报价_爱卡上海车市
+2014-07-01 09:33:00,258 INFO   - search: 地址：http://www.baidu.com/link?url=uOzcq8Vm017esWpf2UwgeOmw5Vpnz-qk47O44NkgNJ3
+2014-07-01 09:33:00,258 INFO   - search: 标题：上海地图,上海电子地图,上海地图查询,上海街景地图 - 城市吧街景...
+2014-07-01 09:33:00,259 INFO   - search: 地址：http://www.baidu.com/link?url=gDqlYnFgJ52WjjCLZoXRNiiWFQdzNPgNOjO265Un6hC
+2014-07-01 09:33:00,259 INFO   - search: 标题：上海市旅游局政务网
+2014-07-01 09:33:00,259 INFO   - search: 地址：http://www.baidu.com/link?url=z4L1Tmfx6IsdbHwE5rF6bPQMUMorOPvjAhBTIV7ieBBSwRXysxpujtHf5Gzd0Nqa
+2014-07-01 09:33:00,260 INFO   - search: 标题：上海教育门户网站欢迎您!
+2014-07-01 09:33:00,260 INFO   - search: 地址：http://www.baidu.com/link?url=tf2D1MJSqB6TatJiL8eKVSYo62Tr7Rhuy48re-E6q59euHx5nhj5AILHLhiJDrFg
+2014-07-01 09:33:00,260 INFO   - search: 标题：上海司法行政网
+2015-01-26 09:09:32,791 INFO   - main: 10秒后启动采集
+2015-01-26 09:09:49,711 INFO   - search: 地址：http://www.baidu.com/link?url=aT1GtD5PxKd1-5inAFUCfZhdWvPMcJ3n96ifcAThH_YGV6MFHpEjWS99aam1k7hTmgHFVD71uzBsyZEvE89BU_
+2015-01-26 09:09:49,712 INFO   - search: 标题：上海_百度百科
+2015-01-26 09:09:49,713 INFO   - search: 地址：http://www.baidu.com/link?url=-SIy-44DXd4sDMyK91Hg_MP58-w4c7yEk672RMFmGqrarJacNo7Fz_RmiJqFyAsid-oVzwsl4loD-CWE1rcAdIXUFzDibndgIWIjqPzARxB8Z1lV3dO70SRQJNc6NoBc8kAiZDzRnqsz_I4t94wh1T5U3rVbYr8XPBeyHFjNVS7
+2015-01-26 09:09:49,725 INFO   - search: 标题：上海市地图_百度地图
+2015-01-26 09:09:49,725 INFO   - search: 地址：http://www.baidu.com/link?url=aM_OgR6bq7uK-2lAnHQypiCc2ygzkxAuGUN0BVieEKnPT-twU4S8jYiTXpCQU6JcN4xSv1jj0wYW_gXRKpgpGq
+2015-01-26 09:09:49,726 INFO   - search: 标题：2015超实用上海旅游攻略_百度旅游_带你玩转上海
+2015-01-26 09:09:49,726 INFO   - search: 地址：http://www.baidu.com/link?url=xop8U63hjjy1X-Mi35AdlPjC_2kZ-VmvoEE97D8b18yx3QSY--0r1xjTtMVEbEsfSO_d-AKQViDbUV1Q3YsRi_
+2015-01-26 09:09:49,727 INFO   - search: 标题：上海吧 百度贴吧
+2015-01-26 09:09:49,727 INFO   - search: 地址：http://www.baidu.com/link?url=Bebn6_QM9xx7OMysOI0K5VaoUJYbV8sRtAUzPu7vOqPnDKVFXl_0GZfZA_kCURZJ
+2015-01-26 09:09:49,727 INFO   - search: 标题：中国上海
+2015-01-26 09:09:49,727 INFO   - search: 地址：http://www.baidu.com/link?url=1GoyGC1ggS3LfcvqWnckU2U_VsuJKNoCRl_wO9REt2RyXVkMQdSeQZ8mu9R-WT_avJtt9S42MYkMq2FBowI4lWIHYyc3Euw7nPbvYomKig3
+2015-01-26 09:09:49,729 INFO   - search: 标题：上海的最新相关信息
+2015-01-26 09:09:49,729 INFO   - search: 地址：http://www.baidu.com/link?url=EyQ7EEVuDhcwfx_Qx-rKt1cjSQOrxvumFMfGPN4AawDMIG0DRdg04S4W2Vq9qIQFZ8d5gcXnSaz0rCC2PUmCnq
+2015-01-26 09:09:49,729 INFO   - search: 标题：上海天气预报_一周天气预报_中国天气网
+2015-01-26 09:09:49,729 INFO   - search: 地址：http://www.baidu.com/link?url=EyQ7EEVuDhcwfx_Qx-rKtHFjgrDOY0rvdh0QtWnkGq5siMOT0aLdXb6z9PTeRNyd4qmLVmmxYdqlRSJknm8gxJw5cfswyOcyJ_wxHDhUBzKgiBpVGRtxhd7EJKVE896ZoFL5dteU2hgssVRMAqTFYi2v4t29jbvElyFrDtEfI_a
+2015-01-26 09:09:49,731 INFO   - search: 标题：上海_百度图片
+2015-01-26 09:09:49,732 INFO   - search: 地址：http://www.baidu.com/link?url=63rzGRD8C0vx9GBpL5zhoReR86JQuzdwyHJnROx_jkwdE2d-VBXZHNn3xVTIhhAc
+2015-01-26 09:09:49,732 INFO   - search: 标题：上海热线:中国的上海 世界的上海 -- 最上海的热线!
+2015-01-26 09:09:49,732 INFO   - search: 地址：http://www.baidu.com/link?url=zSM6mwu_KxPUZg9mb8khP7SvCHCr8lxfy8WiXkULj5XoW8nCSXSJH1kLOb9WEQHx
+2015-01-26 09:09:49,732 INFO   - search: 标题：上海旅游攻略_上海上海旅游景点_上海旅游网
+2015-01-26 09:09:54,082 INFO   - search: 地址：http://www.baidu.com/link?url=A9npL7-vY7FZwBhY494C554ViXGxrpm1nsxv1eXNQA_
+2015-01-26 09:09:54,083 INFO   - search: 标题：上海地图,上海电子地图,上海地图查询,上海街景地图 - 城市吧街景...
+2015-01-26 09:09:54,083 INFO   - search: 地址：http://www.baidu.com/link?url=gT54Z05Z1FG5U18Hwv6FpPPqxbFpiULRVLRjJosZpEEO5Q_3zUU1I9JggtuVVR_vhXwR5qLcmE7-U8mLMR-6xIeTIMfaOjLuz0-NUPfraFG
+2015-01-26 09:09:54,083 INFO   - search: 标题：上海海得控制系统股份有限公司_焦点透视_新浪财经_新浪网
+2015-01-26 09:09:54,083 INFO   - search: 地址：http://www.baidu.com/link?url=H_etmxjAZGYPagIxOQo6lkgbO7LxGmFtrMezjnBH1neelxjFaIvxEikiU6CpH7_mwSOgwk3Q7YXhK4rPVcQQqa
+2015-01-26 09:09:54,083 INFO   - search: 标题：新闻浏览 - 上海新闻网
+2015-01-26 09:09:54,084 INFO   - search: 地址：http://www.baidu.com/link?url=RL55vgNS6eR3JY07teYIGTDdFcrtqdBN1xcG0ihpKxuX_AbTCGsGWd2j-3V1higyOlzdsvK8cZ0Bk_lHmcBNf_
+2015-01-26 09:09:54,084 INFO   - search: 标题：又到上海两会开幕之际 -新闻频道-和讯网
+2015-01-26 09:09:54,084 INFO   - search: 地址：http://www.baidu.com/link?url=enT-ssPXucWk8xrFehReZfW2XDlogUW24KULexRJ2ZS
+2015-01-26 09:09:54,084 INFO   - search: 标题：新浪上海_最新鲜的新闻资讯生活_新浪网
+2015-01-26 09:09:54,084 INFO   - search: 地址：http://www.baidu.com/link?url=zQXCrzLr21-q5_E1vTJkyCZDZih-4fj_TNhlcYEF4QST6r5tyFZvPvkFJ3opXM1P
+2015-01-26 09:09:54,084 INFO   - search: 标题：新华网上海频道
+2015-01-26 09:09:54,084 INFO   - search: 地址：http://www.baidu.com/link?url=F9GrPsB65yu3M_u1yrafnMYxAyMe7H6XtkqoK8aa9godgutHUfOjnw2I_HDNOvUv
+2015-01-26 09:09:54,084 INFO   - search: 标题：上海科技
+2015-01-26 09:09:54,085 INFO   - search: 地址：http://www.baidu.com/link?url=iqR0S0fHkvADbbRcmm_PXzkZVTFcK5GzKZfBT4jK4YNrHVuZ2CrrzAgF5-oKAYo5sedcv8wLFiTxkOasNXsybq
+2015-01-26 09:09:54,085 INFO   - search: 标题：“上海式问责”之问-评论频道-和讯网
+2015-01-26 09:09:54,085 INFO   - search: 地址：http://www.baidu.com/link?url=AT1mo22dRTnkMQKlUVVx2L-H6KgN0asJghILPUiI5YhxFjnDkhP2PIDBgUSvFYpF
+2015-01-26 09:09:54,085 INFO   - search: 标题：上海市水务局 上海市海洋局欢迎您!
+2015-01-26 09:09:54,085 INFO   - search: 地址：http://www.baidu.com/link?url=qb4mhzQtxiITuN-tjUxuIpBhFSw_9ezPq-Mske5Mr2u9eHG31Gjt2hYX92UIZPkd
+2015-01-26 09:09:54,085 INFO   - search: 标题：::上海市公安局::
+2015-01-26 09:09:54,780 INFO   - search: 地址：http://www.baidu.com/link?url=0ymgYOMrJvMH6AaEGscEhWqgaN23z5hfNTa6yV37McnXcrlAAgRxkwQ7FccCbAQf9k_sjeuO-4iLiMlOJ09DX_
+2015-01-26 09:09:54,781 INFO   - search: 标题：“上海式问责”之问-评论频道-和讯网
+2015-01-26 09:09:54,781 INFO   - search: 地址：http://www.baidu.com/link?url=gpHdL3g6T5BVTq3PpPXPMVNS_QVRxGPZperW0sPOuBFU2HdiMNKK05bKv5uLr5iE
+2015-01-26 09:09:54,782 INFO   - search: 标题：上海市水务局 上海市海洋局欢迎您!
+2015-01-26 09:09:54,782 INFO   - search: 地址：http://www.baidu.com/link?url=gFqikTrIqmhjbT7yOHoscXql0OvTApoBUtVZBNhGTP88KRMw5nLs2bstcm-B7Tfj
+2015-01-26 09:09:54,782 INFO   - search: 标题：::上海市公安局::
+2015-01-26 09:09:54,783 INFO   - search: 地址：http://www.baidu.com/link?url=m5cg1TAeY20ywQVYhFhKVmeWkgGln14FPusfNkareUSIk3Mg3pHSDKKxIZJIS6YO
+2015-01-26 09:09:54,784 INFO   - search: 标题：上海市人民检察院
+2015-01-26 09:09:54,784 INFO   - search: 地址：http://www.baidu.com/link?url=K925Yh5WqhZ2LxfpBAQ51wf1AjbJ25hZ285-ton-d33
+2015-01-26 09:09:54,784 INFO   - search: 标题：上海房地产门户-搜房房地产网
+2015-01-26 09:09:54,784 INFO   - search: 地址：http://www.baidu.com/link?url=Isr-_W8VHftVryQqjmKQ4oVKpg5FvHoc2h3DZrnsEB4cCjA23b5gDl6W5Jox8Tj_
+2015-01-26 09:09:54,784 INFO   - search: 标题：上海人大公众网
+2015-01-26 09:09:54,785 INFO   - search: 地址：http://www.baidu.com/link?url=VLK4QZPLmqr89oPzksqVuBEu-g4eyMHp_xncIMc9corVKBByur3mCa1KgmM-wYlf
+2015-01-26 09:09:54,785 INFO   - search: 标题：上海医保
+2015-01-26 09:09:54,785 INFO   - search: 地址：http://www.baidu.com/link?url=-YaNVTDfg0Bc92MtS4jqSwi3y-jtdehECEhDK4BQCzjwTPEaadGmw0DNShxfHWPS
+2015-01-26 09:09:54,785 INFO   - search: 标题：“2014上海剧院演出排行”评选活动结果发布_大申网_腾讯网
+2015-01-26 09:09:54,786 INFO   - search: 地址：http://www.baidu.com/link?url=KKZBemu5uhxDdBQiiDA50ASGvRUag7rwV4x-LLILzRJweLmb53Mu2166Dk46tfCs
+2015-01-26 09:09:54,786 INFO   - search: 标题：上海民政
+2015-01-26 09:09:54,786 INFO   - search: 地址：http://www.baidu.com/link?url=LKzVLcU0fjkF1oyD_qBsKMdb7d586HujNxZ_pevjomZb7HJ6uNZTWJsWvyfbic52S-EaFj5iG_w_ENrTEUrVha
+2015-01-26 09:09:54,786 INFO   - search: 标题：上海酒店,上海酒店预订,上海宾馆住宿推荐【携程酒店】
+2015-01-26 09:09:56,065 INFO   - search: 地址：http://www.baidu.com/link?url=dW8iQLo-lpzquqWAOkcHkNuzYCh_Jpxjxd0qz2NbUGSlWvrsPnHF1UqCqBAtIgRg
+2015-01-26 09:09:56,065 INFO   - search: 标题：【上海百姓网】 - 免费发布信息 - 上海分类信息网
+2015-01-26 09:09:56,065 INFO   - search: 地址：http://www.baidu.com/link?url=_yr1qtnA8coLH7H1r3BEsifiI8MO0J7-ZEs2ukTQ-pijG7D_Ep149U9DETcR5THy
+2015-01-26 09:09:56,066 INFO   - search: 标题：上海旅游网_ www.shanghaitour.net _上海旅游首选公众服务平台
+2015-01-26 09:09:56,066 INFO   - search: 地址：http://www.baidu.com/link?url=WpZKoMEc1mo_vGmMWD2AaKYmPVIAxd7wrdio8movEV5WQDsEJE4Kz4K6yyD40TdD
+2015-01-26 09:09:56,066 INFO   - search: 标题：上海市规划和国土资源管理局
+2015-01-26 09:09:56,066 INFO   - search: 地址：http://www.baidu.com/link?url=jsmabHLP7s2tmjnaJsFaQ8vwJACx26yyVEcQdKZ9pj5mQvj6DkW3f6tO8KfB1lcQ
+2015-01-26 09:09:56,067 INFO   - search: 标题：上海市中小企业服务互动平台
+2015-01-26 09:09:56,067 INFO   - search: 地址：http://www.baidu.com/link?url=hsq4SN2bMntPaLZHUmXfa7_KSuvpwCMNxVEn4_wfVdK
+2015-01-26 09:09:56,067 INFO   - search: 标题：【58同城 58.com】上海分类信息 - 本地 免费 高效
+2015-01-26 09:09:56,067 INFO   - search: 地址：http://www.baidu.com/link?url=GiUfGi02Lgch8fFThlFBMdRpNe_sPzuHhnKYASIvhf_
+2015-01-26 09:09:56,068 INFO   - search: 标题：中共上海市委党校 上海行政学院首页
+2015-01-26 09:09:56,068 INFO   - search: 地址：http://www.baidu.com/link?url=TF5swwqRBqPt1j7QpAkHNo5jtjX_QHAVwvS520UuhNg_NjCMik413fexpFEFBwpd
+2015-01-26 09:09:56,068 INFO   - search: 标题：【上海汽车网|上海车市_上海汽车报价_上海汽车团购服务】_易车网
+2015-01-26 09:09:56,068 INFO   - search: 地址：http://www.baidu.com/link?url=l4Q9noCiL_xRDlGPidNtJWNIKWCYnVD_y9RA9QCTNPO
+2015-01-26 09:09:56,068 INFO   - search: 标题：上海市文化广播影视管理局
+2015-01-26 09:09:56,069 INFO   - search: 地址：http://www.baidu.com/link?url=jtqvrQmjjh2zi9V0u2lbLr8k5zh-Qh8z3-wFJANBJ7QXcUuFMyfwVZ_JCDW-utxZ
+2015-01-26 09:09:56,069 INFO   - search: 标题：上海机构编制网
+2015-01-26 09:09:56,069 INFO   - search: 地址：http://www.baidu.com/link?url=VZCk0S80uWAsreiLv0LH062_DSZYWFUs_F7fSa71Re00Xo1PgE2p5UIfR2xi8WTh
+2015-01-26 09:09:56,069 INFO   - search: 标题：上海农业网
+2015-01-26 09:10:04,937 INFO   - search: 地址：http://www.baidu.com/link?url=Ei6A9n_3_z9omd-VeKb3N-hScEEN-19f8tv33FBO3G3
+2015-01-26 09:10:04,937 INFO   - search: 标题：东方网-上海频道
+2015-01-26 09:10:04,937 INFO   - search: 地址：http://www.baidu.com/link?url=MsESrsAvC7da7yRZolU5FHypf1agpLSht6r2fgx_5vs2sMn6Zjtu1y7HNZWu11V3
+2015-01-26 09:10:04,938 INFO   - search: 标题：上海市安全生产监督管理局
+2015-01-26 09:10:04,938 INFO   - search: 地址：http://www.baidu.com/link?url=3bLTsK3xPMRMEDGRlt9bZWHnoy7TWgUWg2WXXWvPRdrZ5l9ghIsg6f5mjUJFM3p8
+2015-01-26 09:10:04,938 INFO   - search: 标题：上海市卫生和计划生育委员会网站变更
+2015-01-26 09:10:04,938 INFO   - search: 地址：http://www.baidu.com/link?url=jm9ARGuqbAprbbDzwSMUdxsOZ4T4TaRSh8U23eXqETWRVh1ELgQtpEpRYYOLbuo0
+2015-01-26 09:10:04,939 INFO   - search: 标题：上海珍岛信息技术有限公司-中国领先的整合网络营销服务提供商
+2015-01-26 09:10:04,939 INFO   - search: 地址：http://www.baidu.com/link?url=Hi_qWmU1gCVliYzE4kIrvvExW9PI-JNF79hUqI7F5HRbKbPXg4ePFMRD8tcSK1RYKB-tQi1__G_poPC-lvxPaa
+2015-01-26 09:10:04,939 INFO   - search: 标题：上海市食品药品监督管理局
+2015-01-26 09:10:04,940 INFO   - search: 地址：http://www.baidu.com/link?url=Y_nyGXI1hP2hrynAdQEz7M2DzTPXs9GZRtAR5LGX9ytVH5dnOyP97t8PkTB1A7jK
+2015-01-26 09:10:04,940 INFO   - search: 标题：上海司法行政网
+2015-01-26 09:10:04,940 INFO   - search: 地址：http://www.baidu.com/link?url=nhAuuRRbpSDlum0uWEZSUSyi4mWggjMGaPkHco-lsuonep6HBN2TtdvS6emrPwIT
+2015-01-26 09:10:04,940 INFO   - search: 标题：上海统计网--欢迎您访问上海市统计局 国家统计局上海调查总队网站!!
+2015-01-26 09:10:04,941 INFO   - search: 地址：http://www.baidu.com/link?url=YD_P_0EJkw68gBAXOuozgyL4ztGLTdkZAspAGJHy1KG
+2015-01-26 09:10:04,941 INFO   - search: 标题：搜狐上海-搜狐
+2015-01-26 09:10:04,941 INFO   - search: 地址：http://www.baidu.com/link?url=8wqYeh-subUjdEMoGLGrOENvihd7DNmW-kIJTiLkDwG
+2015-01-26 09:10:04,941 INFO   - search: 标题：上海电信 - 首页
+2015-01-26 09:10:04,942 INFO   - search: 地址：http://www.baidu.com/link?url=LY6inpkfapfQNIbWZkHGEGLcWoSCQVOrGWiZaOa7Ouu
+2015-01-26 09:10:04,942 INFO   - search: 标题：上海证券交易所
+2015-01-26 09:10:44,092 INFO   - search: 地址：http://www.baidu.com/link?url=aAKN0W46tsBC5mdJAtSRYWD5e9M9KYIgC6HyBJL2-8KeAdiq1_RIkXmOThwDLlXB5tBixnhnMaM2LPK5EuV_EOaVH730K5WWgrMaDijiMwS
+2015-01-26 09:10:44,093 INFO   - search: 标题：北京_百度百科
+2015-01-26 09:10:44,093 INFO   - search: 地址：http://www.baidu.com/link?url=6lZBkHhi96Al1w4mPJZrdVLtgspweC15wOymysa7W7T0k7bPFrD5jSD-TaIGliwn_uvicsAdNz-giwaHPBb8q08ePCqii4flMPOwb5ixkLTztkvwczJBx-iFocqKjndgN49EO6WuQJq-rfRXLUa1q0sSjBnQy4qXmOlS3ilgdS3
+2015-01-26 09:10:44,093 INFO   - search: 标题：北京市地图_百度地图
+2015-01-26 09:10:44,093 INFO   - search: 地址：http://www.baidu.com/link?url=aAKN0W46tsBC5mdJAtSRYWNTPQc-84wuEc02MkNOJE08X6O5cge6gQ56lCgfkjRsKTBxv3CXRI_zxZyylIrcwa
+2015-01-26 09:10:44,093 INFO   - search: 标题：2015超实用北京旅游攻略_百度旅游_带你玩转北京
+2015-01-26 09:10:44,094 INFO   - search: 地址：http://www.baidu.com/link?url=_slC97RLvX55Y2IbUkAOm9EXaTdMD-AGxNstKa9AF5oIcFndxrKfPFLMB6AqJ7Ju
+2015-01-26 09:10:44,094 INFO   - search: 标题：首都之窗-北京市政务门户网站
+2015-01-26 09:10:44,094 INFO   - search: 地址：http://www.baidu.com/link?url=nx8_J85_8sS6qCnp_SvT26eAOkj5m5dQIMltT9ym6UDYu9Av0GFqUsjQkFtbLp0E-NfgMJ5T8NEtAfntnCzbAK
+2015-01-26 09:10:44,094 INFO   - search: 标题：北京天气预报_一周天气预报_中国天气网
+2015-01-26 09:10:44,094 INFO   - search: 地址：http://www.baidu.com/link?url=sfo9g93ZfJh1sqTdzsSahNh6PkMqXNqdnb4XpUVfuzu-QuTuz1EqPQv7wQrcVUraKSjCL_Wc8IMgHqYBgNkbrK
+2015-01-26 09:10:44,095 INFO   - search: 标题：北京吧 百度贴吧
+2015-01-26 09:10:44,095 INFO   - search: 地址：http://www.baidu.com/link?url=C6af-Z6jWINTYfv1eIdhZX6j__V0VEScrY5cP-CP-A9wup6qAVpZyncz11IBBWBkDwy6fVGXS-3Ra3XI8zOky8AFmItt-ceJahLOeSWURjS
+2015-01-26 09:10:44,095 INFO   - search: 标题：北京的最新相关信息
+2015-01-26 09:10:44,095 INFO   - search: 地址：http://www.baidu.com/link?url=lSKYbnwsbwMpNaUtgiqlOr7507H8baXHc2E-LFynNhdJpPR6x_lAJos4nKcdgmzN
+2015-01-26 09:10:44,095 INFO   - search: 标题：北京旅游_北京旅游景区景点_北京旅游行程推荐_乐途旅游网
+2015-01-26 09:10:44,095 INFO   - search: 地址：http://www.baidu.com/link?url=pzxYJWFkyQQ9kD99U4eg8NqMdMAUF_2nsFjInwTvkE3
+2015-01-26 09:10:44,095 INFO   - search: 标题：北京地图,北京电子地图,北京地图查询,北京街景地图 - 城市吧街景...
+2015-01-26 09:10:44,096 INFO   - search: 地址：http://temai.baidu.com/Index/index?qid=10276753589863645428&pssid=10928_1439_10901_11226_11072_11111_11066_11101_11277_11241_11281_11150_11279_11243_10618&tn=baidu&zt=ps&pvid=1422234643701907&wd=%E5%8C%97%E4%BA%AC&manchor=1&cardid=29116
+2015-01-26 09:10:44,096 INFO   - search: 标题：【北京】全网低价 北京促销 百度特卖
+2015-01-26 09:10:44,550 INFO   - search: 地址：http://www.baidu.com/link?url=BoYUrLHwsn5TlRxRyY-jtyIFUQIxEhij7EzAfYSbEX6_C7tYP2JkchKtw8TWGHkU
+2015-01-26 09:10:44,550 INFO   - search: 标题：北京市公安局
+2015-01-26 09:10:44,551 INFO   - search: 地址：http://www.baidu.com/link?url=Y72gRXGvUHleJdq9tWBMDJlC78C64ss8wBmxpGfLOZMe2L1BTGaEhLk5SDQiwgCG
+2015-01-26 09:10:44,551 INFO   - search: 标题：北京司法局 > 首页
+2015-01-26 09:10:44,551 INFO   - search: 地址：http://www.baidu.com/link?url=FG-wXjiasaCyTswVaGlrRmNPE2aJfFIjhhBVjUeiQHG2pehK2QeTtD_MrvGQTFN1
+2015-01-26 09:10:44,552 INFO   - search: 标题：【北京招聘网_北京最新招聘信息】-智联招聘
+2015-01-26 09:10:44,552 INFO   - search: 地址：http://www.baidu.com/link?url=81Z7TJ6VN_f9mwkoAaL8pqroC6zGcyq2A4wNZR4yWlzIlXK4QoC2Wf5erSBE4sr2JVRPJEkkrx8hmm6Fqun6rK
+2015-01-26 09:10:44,552 INFO   - search: 标题：Do都城|学生|教科所_凤凰资讯
+2015-01-26 09:10:44,552 INFO   - search: 地址：http://www.baidu.com/link?url=4VwDXevXyVDZlp2-e6oJCq_iWTVM1VQDbMfzNVBOu1IfNhlNj9n75fOuyxWhdnR1d3qOb39CQLQNArDboQ_ZWu-oVxzzjshQAVF5MOVi2qu
+2015-01-26 09:10:44,552 INFO   - search: 标题：北京青年报电子版
+2015-01-26 09:10:44,553 INFO   - search: 地址：http://www.baidu.com/link?url=W0iaU-jVFNqPiNZOqK0JUOnx2vtNZldfhWiYPKY6TZJ_-pYBtxddKBn036fmfMQs
+2015-01-26 09:10:44,553 INFO   - search: 标题：新华网北京频道_北京新闻_首都
+2015-01-26 09:10:44,553 INFO   - search: 地址：http://www.baidu.com/link?url=2opgwGKju5PFY0n3VtgaF1rf7d4DMp84BjWbXGLxnHqPH3kgVqnnHh4mU_2HJ_EhfR-aCoIEfP9uQ9xjMByJJHnpflv37wMZeSJS7XVjOfa
+2015-01-26 09:10:44,553 INFO   - search: 标题：起亚k2最高现金优惠2.3万 现车售全国_北京汇丰_太平洋汽车网
+2015-01-26 09:10:44,554 INFO   - search: 地址：http://www.baidu.com/link?url=XswBkUogvfkpzgmuB2BRQ0haVdFQha40PUbLpjao6sZ-e6mgzHjQNNxjcWf35Ggr
+2015-01-26 09:10:44,554 INFO   - search: 标题：北京市人力资源和社会保障局首页
+2015-01-26 09:10:44,554 INFO   - search: 地址：http://www.baidu.com/link?url=mXgkIk7gv3CBe6-ePnK3FjJ0_TusyDYRh_mFoxw_Ej5uK8CN-wWJepistIjLQyLL
+2015-01-26 09:10:44,554 INFO   - search: 标题：北京频道--人民网
+2015-01-26 09:10:44,554 INFO   - search: 地址：http://www.baidu.com/link?url=dhOtov0bTU72wTZ7KjlGYLqUAMzlxIwHgpRxiC0kbvFRB3S-oKNtQDfmWnKE1r8Z
+2015-01-26 09:10:44,555 INFO   - search: 标题：北京市地图|三维北京地图|北京地图查询|北京电子地图|北京地图E都市
+2015-01-26 09:10:45,398 INFO   - search: 地址：http://www.baidu.com/link?url=Mtk5ebaYPD0YyEZv6V4L_vZwZSw09sghF3q72WdUK_m_f2Cj2JWkWs8XArVoFGcQ
+2015-01-26 09:10:45,398 INFO   - search: 标题：北京市地图|三维北京地图|北京地图查询|北京电子地图|北京地图E都市
+2015-01-26 09:10:45,398 INFO   - search: 地址：http://www.baidu.com/link?url=if578-9zzL167r6uKLzjHP7VaODMOm7cK2rwMQZJJ7O
+2015-01-26 09:10:45,399 INFO   - search: 标题：北京教育考试院—北京市高考、成考、自考、中考、会考、社会考试...
+2015-01-26 09:10:45,399 INFO   - search: 地址：http://www.baidu.com/link?url=ByS4Ywiw_gtBiNg98mB8PyTeTEadAeSn1ABwiCMKAY0X_HTZO9ThLKDJEjmtjtmg
+2015-01-26 09:10:45,400 INFO   - search: 标题：首页-北京市水务局
+2015-01-26 09:10:45,400 INFO   - search: 地址：http://www.baidu.com/link?url=tQ0Hd1NkMwj37R5ACOfLvbE6PNIDpUOg-p9xP4NYrlC
+2015-01-26 09:10:45,401 INFO   - search: 标题：北京房地产门户-搜房房地产网
+2015-01-26 09:10:45,401 INFO   - search: 地址：http://www.baidu.com/link?url=2P-kiE2jd2WE6VWLIjnNKIP25a5M_9qFG7CPgNJ4FoMJ53MK-8yCdiMnepQCJEOdQQD1eZQhZ6NXvPURVQxQNI_DKq8YYli_gCUHXYIxtci
+2015-01-26 09:10:45,402 INFO   - search: 标题：北京青年报电子版
+2015-01-26 09:10:45,402 INFO   - search: 地址：http://www.baidu.com/link?url=Bw4icieN0uTiNt21t5kMSURjlwfuoNNRxBy9jdZSYmMp3FbE0j_C8aOfdKIxIH0y9jWe94fpx-XNYVduwHxX71gWDjjQQzzYYR-wO_uCLCW
+2015-01-26 09:10:45,402 INFO   - search: 标题：北京青年报电子版
+2015-01-26 09:10:45,402 INFO   - search: 地址：http://www.baidu.com/link?url=Ohln8pSwshZCsUroRv02IjULcyNJ45NFvqWq_iq2jd0j0oxNGcMc0c8Y22HowVV1pW_O58iWTlTutVs_UL9A662xkCAsWEoyQNU73tXz9sK
+2015-01-26 09:10:45,402 INFO   - search: 标题：北京青年报电子版
+2015-01-26 09:10:45,403 INFO   - search: 地址：http://www.baidu.com/link?url=kMbgtaO5tgZEvbwW2lccAf372FLhOMbvl2rvCKskSdQ_O_u2mgvT56lsEqvUQ0Qwx0qxa1D-i8fZ_P3CPyiGLMD2msfx7KZwTOziF0h9QH_
+2015-01-26 09:10:45,403 INFO   - search: 标题：北京青年报电子版
+2015-01-26 09:10:45,403 INFO   - search: 地址：http://www.baidu.com/link?url=5I5lBzEuY-SEoOwKkmD8NAPlo3mVEygSCtEJv74EuS4RGwkdqWw1DN4Cyl5PlW1F
+2015-01-26 09:10:45,403 INFO   - search: 标题：北京市环保局 - 首页
+2015-01-26 09:10:45,404 INFO   - search: 地址：http://www.baidu.com/link?url=Veeu4uFe7L9wBNDkOB86dC8EC_prVNw-eNn6WtG5j6_mZeyrrhpSskqIIlz97-ZY
+2015-01-26 09:10:45,404 INFO   - search: 标题：北京市人大常委会
+2015-01-26 09:10:45,920 INFO   - search: 地址：http://www.baidu.com/link?url=Vf6xgnFWTdgeMhhxxCqbAaVA9Af8A1yUfwxV_6NBkF6LqdsV_7y-COHtXW-2i3HX
+2015-01-26 09:10:45,921 INFO   - search: 标题：北京酒店,北京酒店预订,北京宾馆住宿推荐【携程酒店】
+2015-01-26 09:10:45,921 INFO   - search: 地址：http://www.baidu.com/link?url=U07mL_N8NVVFkrFrqzIZbK6tee3QlJhfT3hOPlYzNjrW1JQuAlOeh5xBOOgkfvcK
+2015-01-26 09:10:45,921 INFO   - search: 标题：北京旅游攻略_北京北京旅游景点_北京旅游网
+2015-01-26 09:10:45,922 INFO   - search: 地址：http://www.baidu.com/link?url=L89_PktpE3YEnhHD_KgXol8XwEigzBoTduHV_xpUyAm
+2015-01-26 09:10:45,922 INFO   - search: 标题：北京福彩网-福利彩票开奖,福彩走势图,福彩投注-福彩网首页
+2015-01-26 09:10:45,922 INFO   - search: 地址：http://www.baidu.com/link?url=B2E-xroyTlg2-I3IGx3T7ViJbzwKVS5SDYrO0vTgqC_s9YYWQl7Uzow51g-zRwzf
+2015-01-26 09:10:45,922 INFO   - search: 标题：北京市发展和改革委员会
+2015-01-26 09:10:45,923 INFO   - search: 地址：http://www.baidu.com/link?url=Ommj4U3FNTjl9rMUB17dspGNYw8yCF2Mm55IjhQbHNS6Zh9CBlVoXfZYAEb_6Vmr
+2015-01-26 09:10:45,923 INFO   - search: 标题：北京纪检监察网
+2015-01-26 09:10:45,923 INFO   - search: 地址：http://www.baidu.com/link?url=oDw0W0bLNC4-NG95Edz7G5Civ92kDRgAemda9GnrpcYuuvdKmf4nowGXAlc5fWh2
+2015-01-26 09:10:45,923 INFO   - search: 标题：北京共青团|共青团北京市委员会
+2015-01-26 09:10:45,924 INFO   - search: 地址：http://www.baidu.com/link?url=FP_2MmkVXr-ASv-9vuDzCczUUflcJeNvLDihS8IfKVC
+2015-01-26 09:10:45,924 INFO   - search: 标题：北京网-首都城市综合信息服务平台-北京生活、旅游、交通、文化、...
+2015-01-26 09:10:45,924 INFO   - search: 地址：http://www.baidu.com/link?url=_F65jDYAmTtg_wgJvHmD12gcCQSHj7ZqmzgWWPSyMxeN4nlVSKCCYL_934En-GDJ
+2015-01-26 09:10:45,924 INFO   - search: 标题：【北京招聘网|北京人才网|北京人才市场】- 北京58同城
+2015-01-26 09:10:45,925 INFO   - search: 地址：http://www.baidu.com/link?url=X0If_TB4ISQGC7IWXz0bIW9UxguvmNj-f3VZxkjCYS-ezTED3VWLmMw6EWiVYMiT
+2015-01-26 09:10:45,925 INFO   - search: 标题：【北京汽车网|北京车市_北京汽车报价_北京汽车团购服务】_易车网
+2015-01-26 09:10:45,925 INFO   - search: 地址：http://www.baidu.com/link?url=OPfaVV92mfQaiq0OBXwlDtJ6x4BEVVGUM8lYE9YGBau
+2015-01-26 09:10:45,925 INFO   - search: 标题：北京新东方学校-北京新东方官方网站-教育培训基地
+2015-01-26 09:10:48,818 INFO   - search: 地址：http://www.baidu.com/link?url=iHrIxqxAbPS4_pdOwpAWSA7RTvjWg-k7It2dEYcA5pa
+2015-01-26 09:10:48,819 INFO   - search: 标题：北京妈妈网_官方网站,北京妈妈首选育儿、生活等交流互动社区 - ...
+2015-01-26 09:10:48,819 INFO   - search: 地址：http://www.baidu.com/link?url=AloPzEIdEqRH_I5mVmOpyih2Wl0zS7PRJER241A3v9GjON1hipQdqEUUVOyxgvjk
+2015-01-26 09:10:48,819 INFO   - search: 标题：北京市农业局 - 首页
+2015-01-26 09:10:48,820 INFO   - search: 地址：http://www.baidu.com/link?url=SMj_2gkb-cD-8c57Sy33Tf_zTz6HCbT5kG8-pkW0rke
+2015-01-26 09:10:48,820 INFO   - search: 标题：北京车市_北京汽车网_北京汽车报价_爱卡北京车市
+2015-01-26 09:10:48,820 INFO   - search: 地址：http://www.baidu.com/link?url=rm5GYW__0AdkBRvNtlpW-fuh3fjfSuZQcVSEDScZUz37z4HgZH9dTeDgD7N6vIBR
+2015-01-26 09:10:48,820 INFO   - search: 标题：北京市科委
+2015-01-26 09:10:48,820 INFO   - search: 地址：http://www.baidu.com/link?url=a4v6X8ry6WNlME-8ZfKWdTc_j6exCm_MHjQu_HAzXHOm337BUb6aJyCvRwd0ktXMvz-DZxMaHualrIclCFgpv_
+2015-01-26 09:10:48,821 INFO   - search: 标题：北京市住房和城乡建设委员会门户网站 > 首页
+2015-01-26 09:10:48,821 INFO   - search: 地址：http://www.baidu.com/link?url=yTYxBzzefUF9bp-Qsya-JL_UT0ZEk_GIPv16EbARqQc5Va6-uY8ZoSyVBEv9mqOu
+2015-01-26 09:10:48,821 INFO   - search: 标题：欢迎访问北京市统计局 国家统计局北京调查总队网站!
+2015-01-26 09:10:48,822 INFO   - search: 地址：http://www.baidu.com/link?url=3PkKHsCQGNlzt0Tr5ju7Y_g0qODU_ZvkCc-fFit5BN-bd8yzp7u2-WoBLStGEBM2
+2015-01-26 09:10:48,822 INFO   - search: 标题：北京市国土资源局 > 首页
+2015-01-26 09:10:48,822 INFO   - search: 地址：http://www.baidu.com/link?url=TQbmqdx7ZhwIV8BBc20JdppaFB825MQlHGR7l5LP5F9go31zGGHwO3mWeFjZsMK5
+2015-01-26 09:10:48,822 INFO   - search: 标题：北京市人事考试网
+2015-01-26 09:10:48,823 INFO   - search: 地址：http://www.baidu.com/link?url=iVe-ThHpKkUbDd5n3fVNyD5nbK9PDeLYHv8Sju6giceo_XxVPdOASBVCYjPR4abm
+2015-01-26 09:10:48,823 INFO   - search: 标题：北京律师_北京在线律师免费法律咨询_找法网北京律师
+2015-01-26 09:10:48,823 INFO   - search: 地址：http://www.baidu.com/link?url=MxHj9lpWRunugs-YGiYZk9nC5dW8viO4lxTm8fLEasuq0joZ7ockg5yfP4shUhEG
+2015-01-26 09:10:48,823 INFO   - search: 标题：九三学社北京市委员会
+2015-01-26 09:10:49,370 INFO   - search: 地址：http://www.baidu.com/link?url=r0tkA6qtFHy9T4ig5SPHG5zjqqLnNEUmwQri694yFsIGQG0hF1_2sXhpSndSU_WCY_7vtxX_XkI5X6KjZZOsFgZelx7jHNahNqpPRXMcMmG
+2015-01-26 09:10:49,370 INFO   - search: 标题：南京_百度百科
+2015-01-26 09:10:49,370 INFO   - search: 地址：http://www.baidu.com/link?url=0HCZN4plg9V8khuz2uGyCEKbkKtl1xPrgNseAzLbEnP5sykpSfrZ9ByGItWEvufCLYfpRNx22Th_olhX5NNPrsBfDoyB2EKy7UetYZ4vfX-37MnnXnIsJJIJHbuj57EWI3Qok7mEVhV4-8ho5nRjCzlDLdX0Yqit4o4B5WxSawm
+2015-01-26 09:10:49,371 INFO   - search: 标题：南京市地图_百度地图
+2015-01-26 09:10:49,371 INFO   - search: 地址：http://www.baidu.com/link?url=Uv_XvkQEs4y7J1oFX20Bpdzk23iZoJ8700c--VC6RDoxbvCGBxMYW7BgeeA7qa2zPONL9rzNjYwx7f4btTEOVa
+2015-01-26 09:10:49,371 INFO   - search: 标题：2015超实用南京旅游攻略_百度旅游_带你玩转南京
+2015-01-26 09:10:49,372 INFO   - search: 地址：http://www.baidu.com/link?url=Ol5S9MezK6265oU1rvnl5iEEmzebjZC0Bt7jyL2bcN0AfYh-55M5LqaC0aGEkkZtA2OeKZ6pwWY1QrCR_dm6Zq
+2015-01-26 09:10:49,372 INFO   - search: 标题：南京吧 百度贴吧
+2015-01-26 09:10:49,372 INFO   - search: 地址：http://www.baidu.com/link?url=0yFM6Wr1Hz1y1KR7lukaudlxkuUCACVDvCFWDR8ZlmZ9fEuwDFoOC37c6G1KeL59RV9TCLg9bi8MF90fMj4fWK
+2015-01-26 09:10:49,372 INFO   - search: 标题：南京天气预报_一周天气预报_中国天气网
+2015-01-26 09:10:49,373 INFO   - search: 地址：http://www.baidu.com/link?url=IOwhx5jpb1NmHbu0oG0mHWrqn9-9PJPKVLRF4mEncKDNYgKmNN_H0PQXwwcSR3zDEGiBpq-VAoT-F8pUfU0hNx4pBCpI6XH3ukhOBznOhRO
+2015-01-26 09:10:49,373 INFO   - search: 标题：南京的最新相关信息
+2015-01-26 09:10:49,373 INFO   - search: 地址：http://www.baidu.com/link?url=r0tkA6qtFHy9T4ig5SPHGqXFqMDo3NyeQICYiCEMl2sECh2BO5SbS5F-EFmwXXYMDS-LNYKc02C16bC4DIODEq
+2015-01-26 09:10:49,373 INFO   - search: 标题：【南京旅游】景点_2014南京旅游报价_攻略_图片_途牛
+2015-01-26 09:10:49,373 INFO   - search: 地址：http://www.baidu.com/link?url=u2sbth3avxY5NPslj8Y0zGkeAXx4HccwLuqcJVI5lT_
+2015-01-26 09:10:49,374 INFO   - search: 标题：国家级南京经济技术开发区
+2015-01-26 09:10:49,374 INFO   - search: 地址：http://www.baidu.com/link?url=TOs78BV9W03AqV42tXXwsEfhgFj1oi-WmJMavX9WOiOg_9X7OIxnW0CpCEzVaNfZYMB1k3YoGlIoPdejmtan4_
+2015-01-26 09:10:49,374 INFO   - search: 标题：南京天气预报一周,7天,10天,15天,未来一周天气预报..._2345天气预报
+2015-01-26 09:10:49,374 INFO   - search: 地址：http://www.baidu.com/link?url=IkAqDvXPYGrpA4_vXBbXEQ5g-LNlIMF_m4APnKMgbHG
+2015-01-26 09:10:49,374 INFO   - search: 标题：南京旅游网-南京市旅游委员会官方网站
+2015-01-26 09:10:49,877 INFO   - search: 地址：http://www.baidu.com/link?url=VlKlG2w2LiBJ-x2DZ56jWd47U51xN5wILCsfPGYkFkVpvlsk_k91baMmxpLFzq5y
+2015-01-26 09:10:49,878 INFO   - search: 标题：南京地图,南京电子地图,南京地图查询,南京街景地图 - 城市吧街景...
+2015-01-26 09:10:49,878 INFO   - search: 地址：http://www.baidu.com/link?url=Civh-O4dYoe8ldYmJvEvn51FDXkjIFcxl3OA77LxZt1lnrEggcJjCfMppNRLBaafWXhBhqHapZqKpBHjTc-tgq
+2015-01-26 09:10:49,878 INFO   - search: 标题：“据说南京” 为你揭晓南京消费热点_网易新闻中心
+2015-01-26 09:10:49,878 INFO   - search: 地址：http://www.baidu.com/link?url=Ol5S9MezK6265oU1rvnl5mncNr737SPlnmFLERRf3gvXPJiJKDuB24hPurRiw5u3Z4zCn5GULdxJbaRfE3i_Ya
+2015-01-26 09:10:49,879 INFO   - search: 标题：南京艺术学院_百度百科
+2015-01-26 09:10:49,879 INFO   - search: 地址：http://www.baidu.com/link?url=UaJaRWHN2t40fkeoVkGqXLVcOcTkStv4Nck_KX25HsxI9Js8pCs1pL5TXIId1a7WldHWQef7zmhwE7mTivwpza
+2015-01-26 09:10:49,879 INFO   - search: 标题：南京安魂曲(38)_网易新闻中心
+2015-01-26 09:10:49,879 INFO   - search: 地址：http://www.baidu.com/link?url=6HLq_ouuT8_NV9a4OZcrxUoBeiuEDF1YvJvsnIRqYiaVBwDS2ZY6gm_uIMrxm4HsYIzcSiBrEcUyJG22kohaHK
+2015-01-26 09:10:49,880 INFO   - search: 标题：自满自足的南京当代艺术-新闻频道-和讯网
+2015-01-26 09:10:49,880 INFO   - search: 地址：http://www.baidu.com/link?url=omnwiJjnbx1LgKg1ERF256M6v2HTeiPMqWBqkp1JsmQu90WrUc4UUPmMX4eT_pckx96KIy83vqh_8lfW-BiPCMowQV_0u0JwNKfOsaCzGc7
+2015-01-26 09:10:49,880 INFO   - search: 标题：南京市十五届人大三次会议闭幕 选举3名副市长_新华网
+2015-01-26 09:10:49,880 INFO   - search: 地址：http://www.baidu.com/link?url=uhnNFchiTr9P33iDN1k40YhC-WM8nfZL6E9YgIWTUKNhAlZGVl2YeOOXQ2i4rxhQNM9Z1Ycx-A7Kx6DnLxPiy_
+2015-01-26 09:10:49,881 INFO   - search: 标题：南报网2015特别策划:南京11区,为你一心一意_南报网
+2015-01-26 09:10:49,881 INFO   - search: 地址：http://www.baidu.com/link?url=zCa-zM8d8sVcBXpT2em9Dg0KENtvFnWV0Y3Y-vrj_n16W04KF1woc-bWrqGkUQCbMFt_UPVYVTeVSwRp4Xj4Va
+2015-01-26 09:10:49,881 INFO   - search: 标题：南京旅游-南京攻略-南京指南-南京一日游-南京购物
+2015-01-26 09:10:49,881 INFO   - search: 地址：http://www.baidu.com/link?url=OCZfgIPR2kdo3zaYAETRxZwQVqrJCFe_oREQB5m1TMHVC7PGg0jfLCavipy9VyHy
+2015-01-26 09:10:49,882 INFO   - search: 标题：南京(江苏省省会)_百度百科
+2015-01-26 09:10:49,882 INFO   - search: 地址：http://www.baidu.com/link?url=RgxDcE1HxGR6_L5GkITYlg65vvLqHbKw0ltEmIytQmNTkSVVSrz1SSIAwSRb6MtH
+2015-01-26 09:10:49,882 INFO   - search: 标题：南京工商局-首页
+2015-01-26 09:10:50,854 INFO   - search: 地址：http://www.baidu.com/link?url=entPMFKYHC1FakBWSoI2epehgLh9dw4v6xAyOy2QQrIzvG9nMKSv5YgM-VHbKQzJeAmPCoWxgoF3GAp-aRTqua
+2015-01-26 09:10:50,855 INFO   - search: 标题：南报网2015特别策划:南京11区,为你一心一意_南报网
+2015-01-26 09:10:50,855 INFO   - search: 地址：http://www.baidu.com/link?url=WI723jF4c59wmM5PtN567uhUC0miMEJvVJUoKB9wDexK9YwxhjW8F7MrP6qkEIZK8aAUGbJFiwHKxaGImLvUaK
+2015-01-26 09:10:50,855 INFO   - search: 标题：南京旅游-南京攻略-南京指南-南京一日游-南京购物
+2015-01-26 09:10:50,856 INFO   - search: 地址：http://www.baidu.com/link?url=HVDvZww5NDV9QoTbOnGHLG6yzIJzBCciEUhWPMwXITzbCZvmiJAzLa38HE9EPnxT
+2015-01-26 09:10:50,856 INFO   - search: 标题：南京(江苏省省会)_百度百科
+2015-01-26 09:10:50,856 INFO   - search: 地址：http://www.baidu.com/link?url=6PO-qDzAefkSGG0ms_uJCInYlL-yvJG5ql_aUCM88tFAWuVrHd3yhetZEog55HL-
+2015-01-26 09:10:50,856 INFO   - search: 标题：南京工商局-首页
+2015-01-26 09:10:50,856 INFO   - search: 地址：http://www.baidu.com/link?url=lPv3k9hi0KCvOiEe64nYQzJn-UczJvCul88wtJlfEqE7I1qLzbONyg-q_hPMyu9q
+2015-01-26 09:10:50,857 INFO   - search: 标题：【南京汽车网|南京车市_南京汽车报价_南京汽车团购服务】_易车网
+2015-01-26 09:10:50,857 INFO   - search: 地址：http://www.baidu.com/link?url=OJ1HW6aY3pWlg7CgKBJcUwZGos-0md_PXg1V44qibvvpwDBJDZGQAuUwO4m0LRRCavaBnV517izoYURblqdoZv66vM-le7XUd8TImOnVSFy
+2015-01-26 09:10:50,857 INFO   - search: 标题：江苏省南京市中级人民法院网上司法拍卖公告--南京晨报
+2015-01-26 09:10:50,857 INFO   - search: 地址：http://www.baidu.com/link?url=WDLDzQzLF8QofD6teHahsNkWAel0E2VgsNSqWolbI0_44D_Xf_I1gN3rCEYYuLsx
+2015-01-26 09:10:50,857 INFO   - search: 标题：南京房地产门户-搜房房地产网
+2015-01-26 09:10:50,857 INFO   - search: 地址：http://www.baidu.com/link?url=Ykar84Cja1DlpnX-1O5SArSsgUp17EwSozX94y3feqa
+2015-01-26 09:10:50,858 INFO   - search: 标题：欢迎来到南京市人事考试网
+2015-01-26 09:10:50,858 INFO   - search: 地址：http://www.baidu.com/link?url=D33wpbgwTZBK6DxWSC_dPmFZHzcScTO-D45MGs0e_s5XFTLn3md7NvfG49_wkY23
+2015-01-26 09:10:50,858 INFO   - search: 标题：中国共产党南京市委员会
+2015-01-26 09:10:50,858 INFO   - search: 地址：http://www.baidu.com/link?url=om7Ex4JdBW6JKPjaM5jNNmIHj4w4rPT-P-t_8NGke4B5vqJAx0I_Nbbt2XYqq0AH
+2015-01-26 09:10:50,858 INFO   - search: 标题：南京市人力资源和社会保障网
